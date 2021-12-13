@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    height: 100vh;
+    
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+
+    .loader {
+        display: none;
+       
+    }
+
+    .active {
+        display: inline-block;
+    }
+    
+}
+
+.header {
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: rgb(131, 15, 15);
+}
+
+
+.city {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+
+
